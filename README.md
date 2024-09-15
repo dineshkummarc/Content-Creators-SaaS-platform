@@ -2,7 +2,6 @@
 
 #### About
 
-
 Product description..
 
 It is mainly based on following techs, plus couple of other dependencies and tools to ease up your development.
@@ -47,7 +46,6 @@ It is mainly based on following techs, plus couple of other dependencies and too
 ````
 _Note*_ If having issues with composer install, try `php -d memory_limit=1G /usr/bin/composer install`
 
-
 #### Saving admin state via seeds
 
 _Saving admin panel state. This will remove all prior admin related seeds and reverse genererate new ones - so default admin state & settings will persist._
@@ -60,7 +58,6 @@ _Publishing frontend libraries to public directory. Eg: You npm add a new lib an
 ```
 php artisan npm:publish
 ```
-
 
 _Running Code quality checkers and fixers_
 
@@ -86,7 +83,6 @@ For PP:
 
 1. Login to PP Dev dashboard, create new app
 2. Get Paypal's ClientID & Paypal Secret key and add them into the admin
-
 
 ### Ionicons usage
 
@@ -125,7 +121,6 @@ English is nice
 __('Food is good',['food'=>'cacao cu lapte'])
 Food is good
 ````
-
 Frontend
 ````
 trans_choice('We got 1 coconut.',2,{'number':2})
